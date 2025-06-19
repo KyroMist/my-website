@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .section{
+            background: linear-gradient(rgba(25, 25, 25, 0.007),rgba(25, 25, 25, 0)),url(manali.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 89vh;
+            object-fit: cover;
+        }
+        .s-n{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navbar img{
+            width: 5%;
+        }
+        .list ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+
+        }
+        .list button{
+            margin: 0% 10%;
+            background: none;
+            border: none;
+        }
+        .list button a{
+            text-decoration: none;
+            font-size: 20px;
+            color:rgb(19, 4, 4);
+        }
+        .list button a:hover{
+            text-decoration: underline;
+        }
+        .details{
+            height: 66vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .details button{
+            height: 5vh;
+            width: 10%;
+            color: aliceblue;
+            background: none;
+            border: 0.5px solid white;
+            cursor: pointer;
+        }
+        .details button:hover{
+            background-color: rgb(250, 246, 250);
+            color: black;
+        }
+        .s-c{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 2% 0%;
+            padding: 2% 0%;
+            background-color: aliceblue;
+        }
+        .card{
+            width: 280px;
+            height: 70vh;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.39);
+        }
+        .card img{
+            border-top-left-radius: 3%;
+            border-top-right-radius: 3%;
+            width: 100%;
+        }
+        .card button{
+            width: 120px;
+            height: 25px;
+            background: none;
+            border: none;
+        }
+        .card2{
+            width: 280px;
+            height: 70vh;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.39);
+        }
+        .card2 img{
+            border-top-left-radius: 3%;
+            border-top-right-radius: 3%;
+            width: 100%;
+        }
+        .card2 button{
+            width: 120px;
+            height: 25px;
+            background: none;
+            border: none;
+        }
+        .card3{
+            width: 280px;
+            height: 70vh;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.39);
+        }
+        .card3 img{
+            border-top-left-radius: 3%;
+            border-top-right-radius: 3%;
+            width: 100%;
+        }
+        .card3 button{
+            width: 120px;
+            height: 25px;
+            background: none;
+            border: none;
+        }
+        .card4{
+            width: 280px;
+            height: 70vh;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.39);
+        }
+        .card4 img{
+            border-top-left-radius: 3%;
+            border-top-right-radius: 3%;
+            width: 100%;
+        }
+        .card4 button{
+            width: 120px;
+            height: 25px;
+            background: none;
+            border: none;
+        }
+        .card5{
+            width: 280px;
+            height: 70vh;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.39);
+        }
+        .card5 img{
+            border-top-left-radius: 3%;
+            border-top-right-radius: 3%;
+            width: 100%;
+        }
+        .card5 button{
+            width: 120px;
+            height: 25px;
+            background: none;
+            border: none;
+        }
+        .card6{
+            width: 280px;
+            height: 70vh;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.39);
+        }
+        .card6 img{
+            border-top-left-radius: 3%;
+            border-top-right-radius: 3%;
+            width: 100%;
+        }
+        .card6 button{
+            width: 120px;
+            height: 25px;
+            background: none;
+            border: none;
+        }
+        .card7{
+            width: 280px;
+            height: 70vh;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.39);
+        }
+        .card7 img{
+            border-top-left-radius: 3%;
+            border-top-right-radius: 3%;
+            width: 100%;
+        }
+        .card7 button{
+            width: 120px;
+            height: 25px;
+            background: none;
+            border: none;
+        }
+        .card8{
+            width: 280px;
+            height: 70vh;
+            background-color: aliceblue;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.39);
+        }
+        .card8 img{
+            border-top-left-radius: 3%;
+            border-top-right-radius: 3%;
+            width: 100%;
+        }
+        .card8 button{
+            width: 120px;
+            height: 25px;
+            background: none;
+            border: none;
+        }
+        .m-card-s{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 3% 0%;
+        }
+        .text{
+            width: 45%;
+            text-align: center;
+            font-size: 25px;
+        }
+        .image{
+            width: 40%;
+        }
+        .image img{
+            border-radius: 10px;
+            width: 100%;
+        }
+        .explore{
+            display: flex;
+            justify-content:right;
+            align-items: center;
+        }
+        .explore button{
+            height: 7vh;
+            width: 150%;
+            color: black;
+            background: none;
+            border: 0.5px solid rgb(0, 128, 6);
+        }
+        .explore button:hover{
+            background: linear-gradient(rgb(245, 241, 0),rgba(255, 0, 242, 0.56));
+        }
+        .m-card-s2{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 3% 0%;
+        }
+        .text2{
+            width: 45%;
+            text-align: center;
+            font-size: 25px;
+        }
+        .image2{
+            width: 40%;
+        }
+        .image2 img{
+            border-radius: 10px;
+            width: 100%;
+        }
+        .visit{
+            display: flex;
+            justify-content:left;
+            align-items: center;
+        }
+        .visit button{
+            height: 7vh;
+            width: 150%;
+            color: black;
+            background: none;
+            border: 0.5px solid rgb(0, 128, 6);
+        }
+        .visit button:hover{
+            background: linear-gradient(rgb(245, 241, 0),rgba(255, 0, 242, 0.56));
+        }
+        .pic{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            white-space: nowrap;
+            overflow: auto;
+            height: 55vh;
+            background-color: aliceblue;
+        }
+        .tour img{
+            margin: 0% 0.5%;
+            height: 46vh;
+            width: 20%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="s-n">
+            <div class="navbar">
+                <img src="https://buildervg.com/images/logo.png" alt="logo">
+            </div>
+            <div class="list">
+                <ul>
+                    <button><a href="#">About</a></button>
+                    <button><a href="#">Services</a></button>
+                    <button><a href="#">Contact</a></button>
+                </ul>
+            </div>
+        </div>
+        <div class="details">
+            <button>About us</button>
+        </div>
+    </div>
+    <br><br>
+    <center>
+        <h1>Travel Destinations</h1>
+    </center>
+    <div class="s-c">
+        <div class="card">
+            <img src="https://i0.wp.com/thegoodlifefrance.com/wp-content/uploads/2021/03/Literary-tour-of-France.jpg" alt="france">
+            <br>
+            <h2 style="color:orangered;">France,Paris</h2>
+            <br>
+            <p style="color: darkblue;">Traveling to France can cost between $1,500 to $3,000 for a week, depending on your choices. Flights range from $500 to $1,500, accommodations from $50 to $300 per night, and meals from $15 to $50 per person. Transportation and attractions vary in price, with metro rides and museum tickets generally costing a few euros to €25. Costs will vary based on your preferences for comfort and activities.</p>
+            <br>
+            <hr>
+           <button>About more</button>
+        </div>
+        <div class="card2">
+            <img src="https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb">
+            <br>
+            <h2 style="color:darkgreen;">Australia, sydney</h2>
+            <br>
+            <p style="color:darkblue;">A week in Australia typically costs between $1,800 and $4,000. Flights range from $800 to $2,000, accommodations from $50 to $250 per night, and meals from $10 to $30. Transportation and attractions vary, with tours and activities ranging from $50 to $200. Costs depend on your preferences for comfort and activities.Australia is famous for its natural wonders, beaches, cities, and iconic landmarks.Australia has at least 755 species of reptile, more than any other country in the world.</p>
+            <hr>
+            <button>About more</button>
+        </div>
+        <div class="card3">
+            <img src="https://www.sykescottages.co.uk/blog/wp-content/uploads/2022/09/Facts-About-England-Feature.jpg" alt="England">
+            <h2 style="color:crimson">England,Big ben</h2>
+            <br>
+            <p style="color: darkblue;">A week in England costs between $1,500 and $3,500. Flights range from $500 to $1,200, accommodation from $50 to $250 per night, and meals from $10 to $30. Transportation and attractions vary, with prices typically ranging from a few pounds to $30.The fauna of England is similar to that of other areas in the British Isles with a wide range of vertebrate and invertebrate life in a diverse range of habitats.</p>
+            <hr>
+            <button>About more</button>
+        </div>
+        <div class="card4">
+            <img src="https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg" alt="Statue-of-Liberty-Island-New-York-Bay">
+            <br>
+            <h2 style="color:coral;">New York, US</h2>
+            <br>
+            <p style="color: darkblue;">New York is famous for its iconic landmarks like the Statue of Liberty, Times Square, and Central Park.A week in New York costs between $1,500 and $3,500. Flights range from $200 to $600, accommodation from $100 to $350 per night, and meals from $10 to $30. Transportation is about $2.75 per subway ride, with attractions costing $20 to $50.</p>
+            <br>
+            <hr>
+            <a href="card5.html"><button>About more</button></a>
+        </div>
+    </div>
+    <div class="s-c">
+        <div class="card5">
+            <img src="https://s3.india.com/wp-content/uploads/2024/05/Feature-Image_-Rishikesh.jpg##image/jpg">
+            <br>
+            <h2 style="color:tomato;">Rishikesh,Uttarakhand</h2>
+            <br>
+            <p style="color: darkblue;">A week in Rishikesh costs between $300 to $700. Flights range from $100 to $300, accommodation from $10 to $100 per night, and meals around $5 to $15. Activities like yoga, meditation, and rafting typically cost $10 to $50.Public transportation or taxis are affordable, making Rishikesh an affordable yet peaceful destination.</p>
+            <hr>
+            <button>About more</button>
+        </div>
+        <div class="card6">
+            <img src="https://ignitetravelsolution.com/wp-content/uploads/2024/09/Tourist-Attractions-in-Kathmandu-Nepal--1024x682.jpg">
+            <h2 style="color: orangered;">Nepal,Pokhara</h2>
+            <br>
+            <p style="color:darkblue;">A trip to Nepal typically costs between $300 to $800 for a week. Flights usually range from $300 to $600.Popular activities like trekking, visiting temples, and cultural tours can cost $10 to $50. Nepal offers affordable travel options, especially for nature enthusiasts and adventure seekers.Nepal is richer in biodiversity as it receives more rain, compared to western parts.</p>
+            <hr>
+            <button>About more</button>
+        </div>
+        <div class="card7">
+            <img src="https://i0.wp.com/fromsunrisetosunset.com/wp-content/uploads/2018/11/20180911_151859_1200px-min.jpg?ssl=1" alt="srilanka">
+            <h2 style="color:darkgreen;">SriLanka</h2>
+            <br>
+            <p style="color: darkblue;">In Sri Lanka, local transportation costs $1 to $5, with taxis around $20 to $50 per day. Accommodation ranges from $10 to $100 per night, and meals cost $5 to $15. Activities like safaris or tours typically cost $10 to $50.Sri Lanka is a tropical paradise known for its lush rainforests, wildlife, and golden beaches.The country also boasts tea plantations, traditional rice paddies, and charming colonial towns, promising a diverse and exciting journey.</p>
+            <hr>
+            <button>About more</button>
+        </div>
+        <div class="card8">
+            <img src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/02/Catherine-Palace-located-in-the-town-of-Tsarskoye-Selo-Pushkin-St.-Petersburg-Russia.jpg" alt="russia-st-basils">
+            <h2 style="color: crimson;">Russia</h2>
+            <br>
+            <p style="color: darkblue;">A week in Russia costs between $500 to $1,500. Flights range from $400 to $900, accommodation from $20 to $150 per night, and meals from $5 to $20. Public transport is around $1 to $2 per ride, with activities costing $10 to $30.Russian biodiversity includes 12,500 species of vascular plants, 2,200 species of bryophytes, about 3,000 species of lichens, 7,000-9,000 species of algae, and 20,000-25,000 species of fungi.</p>
+            <hr>
+            <button>About more</button>
+        </div>
+    </div>
+    <div class="m-card-s">
+        <div class="image">
+           <img src="https://www.lemontreehotels.com/uploads/hotelslider/66692d97eca5dFacade%20%20(1).jpg" alt="hotelslider"> 
+           <div class="explore">
+            <a href="https://maps.app.goo.gl/WWKDwB22MwkktSAR9"><br><button>Explore more</button></a>
+           </div>
+        </div>
+        <div class="text">
+            <p style="color: blue;">list of travel expenses for Rishikesh:</p>
+            <br>
+               <p style="color: green;"> -1.Transportation:  
+                  - Train/Bus: ₹500 - ₹3,000 (one-way) <br><br> 
+                  - Taxi/Bike Rental: ₹1,000 - ₹2,500 per day  
+                <br><br>
+                -2.Accommodation: <br><br>
+                  - Budget: ₹500 - ₹1,500/night <br><br> 
+                  - Mid-range: ₹1,500 - ₹3,500/night  <br><br>
+                  - Luxury: ₹4,000 - ₹8,000/night  <br><br>
+        </div>
+    </div>
+    <div class="m-card-s2">
+        <div class="text2">
+            <p style="color: blue;">list of travel expenses for Jaipur:</p>
+            <br><br>
+       <p style="color: green;"> -1.Transportation:  <br><br>
+          - Train/Bus: ₹300 - ₹1,500 (one-way) <br><br> 
+          - Taxi/Auto: ₹300 - ₹1,500 per day  <br><br>
+          - Rent a Bike/Scooter: ₹500 - ₹1,500 per day  
+        <br><br>
+        -2.Accommodation: <br><br> 
+          - Budget: ₹500 - ₹1,500/night <br><br> 
+          - Mid-range: ₹1,500 - ₹3,500/night  <br><br>
+          - Luxury: ₹4,000 - ₹8,000/night
+        </p>
+        </div>
+        <div class="image2">
+            <img src="https://pix10.agoda.net/hotelImages/288/288780/288780_16060815130043285854.jpg?ca=6&ce=1&s=414x232&ar=16x9" alt="hoteljaipur"> 
+            <div class="visit">
+             <a href="https://maps.app.goo.gl/WAHdq4Gm61w3vuxc6"><br><button>Explore more</button></a>
+            </div> 
+        </div>
+    </div>
+    <div class="pic">
+        <div class="tour">
+            <img src="https://disneylandparis-news.com//app/uploads/2023/10/D100-8.jpg" alt="disneylandparis-news">
+            <img src="https://content.r9cdn.net/rimg/dimg/97/d4/1dc3de6e-city-27249-163f5014ee8.jpg?crop=true&width=1020&height=498" alt="brisbane">
+            <img src="https://cdn.britannica.com/35/156335-050-62245FCA/Tower-Bridge-River-Thames-London.jpg" alt="towerbridge">
+            <img src="https://travel.usnews.com/images/Times_Square_Getty.jpg" alt="newyork">
+            <img src="https://d34vm3j4h7f97z.cloudfront.net/original/4X/5/e/0/5e0ea600b7a1f565c99ce22855bea51ab834842a.jpeg" alt="Rishikesh">
+            <img src="https://media.dpauls.com/drive-server/images/packages/nepal/kathmandu/durbar-square-kathmandu-nepal.jpg" alt="kathmandu">
+            <img src="https://lp-cms-production.imgix.net/2019-06/GettyImages-469786746_super.jpg?fit=crop&ar=1%3A1&w=1200&auto=format&q=75" alt="Jaipur">
+            <img src="https://www.visitrussia.com/assets/thumbnails/aa/aaea68fd1f68838d1b3d254c4eb413d0.jpg" alt="Russia">
+        </div>
+    </div>
+</body>
+</html>
